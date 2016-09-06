@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7BBAC0469519DBD58FF69716 /* libPods-TestRealm.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 264031965B6DE59CE686DEF1 /* libPods-TestRealm.a */; };
+		CF34B7E31D7925B900F8CD18 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF34B7E21D7925B900F8CD18 /* main.m */; };
+		CF34B7E61D7925B900F8CD18 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF34B7E51D7925B900F8CD18 /* AppDelegate.m */; };
+		CF34B7E91D7925B900F8CD18 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF34B7E81D7925B900F8CD18 /* ViewController.m */; };
+		CF34B7EC1D7925BA00F8CD18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF34B7EA1D7925BA00F8CD18 /* Main.storyboard */; };
+		CF34B7EE1D7925BA00F8CD18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF34B7ED1D7925BA00F8CD18 /* Assets.xcassets */; };
+		CF34B7F11D7925BA00F8CD18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF34B7EF1D7925BA00F8CD18 /* LaunchScreen.storyboard */; };
+		CF34B7FA1D7925EC00F8CD18 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF34B7F91D7925EC00F8CD18 /* Realm.framework */; };
+		CF34B7FD1D792CD800F8CD18 /* PLLatestNewsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CF34B7FC1D792CD800F8CD18 /* PLLatestNewsCell.m */; };
+		CF34B7FF1D792F2400F8CD18 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF34B7FE1D792F2400F8CD18 /* CFNetwork.framework */; };
+		CF34B8011D792F6900F8CD18 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CF34B8001D792F6900F8CD18 /* libc++.tbd */; };
+		CF34B8071D795A6400F8CD18 /* PLStory.m in Sources */ = {isa = PBXBuildFile; fileRef = CF34B8061D795A6400F8CD18 /* PLStory.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		264031965B6DE59CE686DEF1 /* libPods-TestRealm.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestRealm.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D3F76D40E8C3C8EC439B96F /* Pods-TestRealm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestRealm.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestRealm/Pods-TestRealm.release.xcconfig"; sourceTree = "<group>"; };
+		42FEB173058999A79922BA76 /* Pods-TestRealm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestRealm.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestRealm/Pods-TestRealm.debug.xcconfig"; sourceTree = "<group>"; };
+		CF34B7DE1D7925B900F8CD18 /* TestRealm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestRealm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF34B7E21D7925B900F8CD18 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF34B7E41D7925B900F8CD18 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CF34B7E51D7925B900F8CD18 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CF34B7E71D7925B900F8CD18 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CF34B7E81D7925B900F8CD18 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CF34B7EB1D7925BA00F8CD18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF34B7ED1D7925BA00F8CD18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF34B7F01D7925BA00F8CD18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF34B7F21D7925BA00F8CD18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF34B7F91D7925EC00F8CD18 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
+		CF34B7FB1D792CD800F8CD18 /* PLLatestNewsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLLatestNewsCell.h; sourceTree = "<group>"; };
+		CF34B7FC1D792CD800F8CD18 /* PLLatestNewsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLLatestNewsCell.m; sourceTree = "<group>"; };
+		CF34B7FE1D792F2400F8CD18 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		CF34B8001D792F6900F8CD18 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		CF34B8051D795A6400F8CD18 /* PLStory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLStory.h; sourceTree = "<group>"; };
+		CF34B8061D795A6400F8CD18 /* PLStory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLStory.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF34B7DB1D7925B900F8CD18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF34B8011D792F6900F8CD18 /* libc++.tbd in Frameworks */,
+				CF34B7FF1D792F2400F8CD18 /* CFNetwork.framework in Frameworks */,
+				CF34B7FA1D7925EC00F8CD18 /* Realm.framework in Frameworks */,
+				7BBAC0469519DBD58FF69716 /* libPods-TestRealm.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B96072144C15A021385BAB9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF34B8001D792F6900F8CD18 /* libc++.tbd */,
+				CF34B7FE1D792F2400F8CD18 /* CFNetwork.framework */,
+				264031965B6DE59CE686DEF1 /* libPods-TestRealm.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		62509C75DC709DC4E733C233 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				42FEB173058999A79922BA76 /* Pods-TestRealm.debug.xcconfig */,
+				2D3F76D40E8C3C8EC439B96F /* Pods-TestRealm.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF34B7D51D7925B900F8CD18 = {
+			isa = PBXGroup;
+			children = (
+				CF34B7E01D7925B900F8CD18 /* TestRealm */,
+				CF34B7DF1D7925B900F8CD18 /* Products */,
+				62509C75DC709DC4E733C233 /* Pods */,
+				0B96072144C15A021385BAB9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CF34B7DF1D7925B900F8CD18 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF34B7DE1D7925B900F8CD18 /* TestRealm.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF34B7E01D7925B900F8CD18 /* TestRealm */ = {
+			isa = PBXGroup;
+			children = (
+				CF34B8021D795A1900F8CD18 /* Model */,
+				CF34B7F81D7925C200F8CD18 /* Framework */,
+				CF34B7E41D7925B900F8CD18 /* AppDelegate.h */,
+				CF34B7E51D7925B900F8CD18 /* AppDelegate.m */,
+				CF34B7E71D7925B900F8CD18 /* ViewController.h */,
+				CF34B7E81D7925B900F8CD18 /* ViewController.m */,
+				CF34B7EA1D7925BA00F8CD18 /* Main.storyboard */,
+				CF34B7ED1D7925BA00F8CD18 /* Assets.xcassets */,
+				CF34B7EF1D7925BA00F8CD18 /* LaunchScreen.storyboard */,
+				CF34B7F21D7925BA00F8CD18 /* Info.plist */,
+				CF34B7E11D7925B900F8CD18 /* Supporting Files */,
+				CF34B7FB1D792CD800F8CD18 /* PLLatestNewsCell.h */,
+				CF34B7FC1D792CD800F8CD18 /* PLLatestNewsCell.m */,
+			);
+			path = TestRealm;
+			sourceTree = "<group>";
+		};
+		CF34B7E11D7925B900F8CD18 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF34B7E21D7925B900F8CD18 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CF34B7F81D7925C200F8CD18 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				CF34B7F91D7925EC00F8CD18 /* Realm.framework */,
+			);
+			path = Framework;
+			sourceTree = "<group>";
+		};
+		CF34B8021D795A1900F8CD18 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CF34B8051D795A6400F8CD18 /* PLStory.h */,
+				CF34B8061D795A6400F8CD18 /* PLStory.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF34B7DD1D7925B900F8CD18 /* TestRealm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF34B7F51D7925BA00F8CD18 /* Build configuration list for PBXNativeTarget "TestRealm" */;
+			buildPhases = (
+				698032366562174B7AB522F6 /* 📦 Check Pods Manifest.lock */,
+				CF34B7DA1D7925B900F8CD18 /* Sources */,
+				CF34B7DB1D7925B900F8CD18 /* Frameworks */,
+				CF34B7DC1D7925B900F8CD18 /* Resources */,
+				59E08E365CF7D06F09E24486 /* 📦 Embed Pods Frameworks */,
+				39DFFBC0B19875F45A658526 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestRealm;
+			productName = TestRealm;
+			productReference = CF34B7DE1D7925B900F8CD18 /* TestRealm.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF34B7D61D7925B900F8CD18 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Philip.Lee;
+				TargetAttributes = {
+					CF34B7DD1D7925B900F8CD18 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = CF34B7D91D7925B900F8CD18 /* Build configuration list for PBXProject "TestRealm" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF34B7D51D7925B900F8CD18;
+			productRefGroup = CF34B7DF1D7925B900F8CD18 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF34B7DD1D7925B900F8CD18 /* TestRealm */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF34B7DC1D7925B900F8CD18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF34B7F11D7925BA00F8CD18 /* LaunchScreen.storyboard in Resources */,
+				CF34B7EE1D7925BA00F8CD18 /* Assets.xcassets in Resources */,
+				CF34B7EC1D7925BA00F8CD18 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		39DFFBC0B19875F45A658526 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestRealm/Pods-TestRealm-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59E08E365CF7D06F09E24486 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestRealm/Pods-TestRealm-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		698032366562174B7AB522F6 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF34B7DA1D7925B900F8CD18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF34B8071D795A6400F8CD18 /* PLStory.m in Sources */,
+				CF34B7E91D7925B900F8CD18 /* ViewController.m in Sources */,
+				CF34B7E61D7925B900F8CD18 /* AppDelegate.m in Sources */,
+				CF34B7E31D7925B900F8CD18 /* main.m in Sources */,
+				CF34B7FD1D792CD800F8CD18 /* PLLatestNewsCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CF34B7EA1D7925BA00F8CD18 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF34B7EB1D7925BA00F8CD18 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF34B7EF1D7925BA00F8CD18 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF34B7F01D7925BA00F8CD18 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF34B7F31D7925BA00F8CD18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CF34B7F41D7925BA00F8CD18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF34B7F61D7925BA00F8CD18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42FEB173058999A79922BA76 /* Pods-TestRealm.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TestRealm/Framework",
+				);
+				INFOPLIST_FILE = TestRealm/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Philip.Lee.TestRealm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CF34B7F71D7925BA00F8CD18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D3F76D40E8C3C8EC439B96F /* Pods-TestRealm.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TestRealm/Framework",
+				);
+				INFOPLIST_FILE = TestRealm/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Philip.Lee.TestRealm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF34B7D91D7925B900F8CD18 /* Build configuration list for PBXProject "TestRealm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF34B7F31D7925BA00F8CD18 /* Debug */,
+				CF34B7F41D7925BA00F8CD18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF34B7F51D7925BA00F8CD18 /* Build configuration list for PBXNativeTarget "TestRealm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF34B7F61D7925BA00F8CD18 /* Debug */,
+				CF34B7F71D7925BA00F8CD18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF34B7D61D7925B900F8CD18 /* Project object */;
+}
